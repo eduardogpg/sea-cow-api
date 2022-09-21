@@ -1,0 +1,1 @@
+cd /home/eduardo/substrate_doc/substrate/target/release && ./subkey inspect "caution juice atom organ advance problem want pledge someone senior holiday very//derived-hard-key//$1" | grep 'Secret seed:' | perl -e 'for(<>){s/^.*: //;print}' | tr -d "[:blank:]"
